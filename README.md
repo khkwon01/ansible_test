@@ -6,4 +6,6 @@
 ## 2. 설치
 ```
 dnf install ansible
+
+ansible --version
 ```
