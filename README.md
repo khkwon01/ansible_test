@@ -9,3 +9,15 @@ dnf install ansible
 
 ansible --version
 ```
+
+## 3. 조건 (when) 연산자
+
+- ansible_fact['machine'] == 'x86_64'
+- max_memory == 512
+- min_memory < 128
+- min_memory <= 128
+- min_memory > 512
+- min_memory != 512
+- min_memory is defined or min_memory is not defined
+- memory_avaiable
+- not memory_avaiable
